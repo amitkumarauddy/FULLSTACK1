@@ -1,0 +1,41 @@
+h2 {
+    color: green;
+}
+
+/*
+
+.red_text{
+    color: red;
+}
+    */
+
+p{
+    color: red;
+}
+
+.note{
+    font-size: 20px;
+}
+
+#id-select{
+    color: green;
+}
+
+li[value = "5"]{
+    color: blue;
+}
+
+body{
+    background-color: rgb(47, 56, 1);
+}
+
+*{
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside; /* Makes list markers part of the text flow */
+    margin-left: -40px;
+    margin-top: -20px;
+  }
+
