@@ -25,9 +25,6 @@ li[value = "5"]{
     color: blue;
 }
 
-body{
-    background-color: rgb(47, 56, 1);
-}
 
 *{
     text-align: center;
@@ -37,5 +34,26 @@ ol {
     list-style-position: inside; /* Makes list markers part of the text flow */
     margin-left: -40px;
     margin-top: -20px;
-  }
+}
+
+@media (min-width : 319px) and (max-width : 480px){
+    body{
+        background-color: lightsalmon;
+    }
+}
+@media (min-width : 481px) and (max-width : 1200px){
+    body{
+        background-color: powderblue;
+    }
+}
+@media (min-width : 1201px) and (max-width : 1600px){
+    body{
+        background-color: limegreen;
+    }
+}
+@media (min-width : 1601px){
+    body{
+        background-color: seagreen;
+    }
+}
 
